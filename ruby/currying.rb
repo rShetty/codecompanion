@@ -1,4 +1,7 @@
 
+# Currying one argument at a time
+# Partial application of arguments
+
 add = proc { |x, y, z| x + y + z }
 
 add5 = add.curry.call(5)

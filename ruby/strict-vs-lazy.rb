@@ -1,5 +1,4 @@
-
-# Strict Evaluation 
+ Strict Evaluation 
 [1, 2, 3/0, 4].length
 
 # => ZeroDivisionError: divided by 0

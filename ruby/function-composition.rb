@@ -1,18 +1,13 @@
-# => g(x) = x * 1
-
+# => g(x) = x + 1
 g = -> (x) { x + 1 } 
 
 # => f(x) = x * x
-
 f = -> (x) { x * x }
 
-
 # Function composition => g(f(x)
+fg = -> (x) {  f[g[x]] }
 
-gf = -> (x) {  g[f[x]] }
+# Composed function called with 3
 
-# call 
-
-gf[2]
-
-# => 5
+fg[3]
+# => 16

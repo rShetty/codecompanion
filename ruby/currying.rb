@@ -1,4 +1,3 @@
-
 # Currying one argument at a time
 # Partial application of arguments
 

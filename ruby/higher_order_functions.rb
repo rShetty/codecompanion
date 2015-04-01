@@ -8,7 +8,10 @@ Array(1..10).map { |a| double(a) }
 # Function returning function 
 # as return value
 #
-def function_return
-  -> (x) { x * x }
+def multiplication
+  -> (x, y) { x * y }
 end
+
+multiplication.(2, 20)
+# => 40
 
